@@ -52,7 +52,7 @@ npm install
 ### Step 4: Running the Application
 To start the development server, run:
 ```bash
-npm dev
+npm run dev
 ```
 This will start the server on `http://localhost:3000`.
 
