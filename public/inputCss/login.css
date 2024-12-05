@@ -1,0 +1,44 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: red;  
+}
+
+.form{
+  margin-top: 33vh;
+  flex-direction: column;
+  display: flex;
+  gap: 40px !important;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: aqua;
+  max-width: 400px;
+  margin-inline: auto;
+  justify-content: center;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.flex-box > a , a{
+  padding: 5px 10px ;
+  background-color: aquamarine;
+  border-radius: 5px;
+
+  text-decoration: none;
+  font-size: 18px;
+  
+}
